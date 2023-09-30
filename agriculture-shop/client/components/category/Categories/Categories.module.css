@@ -1,0 +1,28 @@
+.categoryContainer {
+  padding: 1.5rem 0 3rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-gap: 2rem;
+  position: relative;
+}
+
+.list {
+  position: relative;
+}
+
+.name {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--color-light);
+}
+
+.categoryImgWrapper {
+  padding-top: 60%;
+  border: 1px solid var(--color-gray-dark);
+  position: relative;
+}
